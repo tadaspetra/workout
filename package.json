@@ -1,0 +1,5 @@
+{
+	"dependencies": {
+		"@hungrimind/hungrimind-cli": "^0.0.3"
+	}
+}
