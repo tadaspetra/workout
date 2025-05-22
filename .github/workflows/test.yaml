@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 env:
-  FLUTTER_VERSION: "3.29.3"
+  FLUTTER_VERSION: "3.32.0"
   CHANNEL: "stable"
 
 jobs:
@@ -56,7 +56,7 @@ jobs:
       - name: Run tests
         run: flutter test --exclude-tags=golden
 
-  # Uncomment when golden tests exists 
+  # Uncomment when golden tests exists
   # golden_tests:
   #   needs: lint
   #   name: Golden tests
